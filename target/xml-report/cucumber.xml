@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="54.874">
+    <testcase classname="Creation an Account" name="TC1 User can create an account" time="54.147">
+        <system-out><![CDATA[When Launch browser.........................................................passed
+Then Navigate to url 'http://automationexercise.com'........................passed
+Then Verify that home page is visible successfully..........................passed
+Then Click on 'Signup / Login' button.......................................passed
+Then Verify 'New User Signup!' is visible...................................passed
+And Enter name and email address............................................passed
+Then Click 'Signup' button..................................................passed
+Then Verify that 'ENTER ACCOUNT INFORMATION' is visible.....................passed
+Then Fill details: Title, Name, Email, Password, Date of birth..............passed
+Then Select checkbox Sign up for our newsletter!............................passed
+Then Select checkbox Receive special offers from our partners!..............passed
+Then Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number.passed
+Then Click Create Account button............................................passed
+Then Verify that ACCOUNT CREATED! is visible................................passed
+And Click Continue button...................................................passed
+Then Verify that Logged in as username is visible...........................passed
+Then Click Delete Account button............................................passed
+Then Verify that ACCOUNT DELETED! is visible and click Continue button......passed
+Then capture the screenshot.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
