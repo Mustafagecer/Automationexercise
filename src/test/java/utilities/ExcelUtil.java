@@ -1,8 +1,6 @@
 package utilities;
 
 import org.apache.poi.ss.usermodel.*;
-import org.testng.Assert;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -23,8 +21,6 @@ public class ExcelUtil {
             workBook = WorkbookFactory.create(fileInputStream);
             //getting the worksheet
             workSheet = workBook.getSheet(sheetName);
-            //asserting if sheet has data or not
-            Assert.assertNotNull(workSheet, "Worksheet: \"" + sheetName + "\" was not found\n");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
